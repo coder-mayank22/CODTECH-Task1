@@ -1,9 +1,15 @@
 **Name**: MAYANK BANERJEE
+
 **Company**: CODTECH IT SOLUTIONS
+
 **ID**: CT3MTDS67
+
 **Domain**: Java Programming
+
 **Duration**: August to November 2024
+
 **Mentor**: Muzammil Ahmed
+
 ## Overview of the Project
 
 ### Project: Simple Calculator
