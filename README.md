@@ -13,8 +13,7 @@
 ## Overview of the Project
 
 ### Project: Simple Calculator
-![Task1_SS](https://github.com/user-attachments/assets/6ee6b1ba-9670-4e62-a58a-02c9af53fa90)
-
+![Task1_SS](https://github.com/user-attachments/assets/3c3470a4-7517-463c-9649-c18f54a32a76)
 
 
 ### Objectives of the Project
