@@ -8,7 +8,7 @@ In the main program, Simple_Calculator, a loop gathers input from the user, stor
 import java.util.Scanner;
 
 class Calculator {
-	private double num1, num2;
+    private double num1, num2;
     private char operation;
     
     public synchronized void setValues(double num1, double num2, char operation) {
@@ -56,7 +56,7 @@ public class Simple_Calculator {
         Scanner sc = new Scanner(System.in);
         Calculator calculator = new Calculator();
         int conti = 1; // Looping variable
-		    do{
+	do{
         	  System.out.print("Enter first number: ");
        		  double num1 = sc.nextDouble();
         
@@ -75,10 +75,10 @@ public class Simple_Calculator {
             	  calThread.join();
         	  }catch(InterruptedException e){
             	  System.out.println("Thread interrupted.");
-			      }
+		  }
 		
-			      System.out.print("\nDo you want to continue? (1->Yes, 0->No): ");
-			      conti = sc.nextInt();
+		  System.out.print("\nDo you want to continue? (1->Yes, 0->No): ");
+		  conti = sc.nextInt();
         }while(conti == 1);
         
         sc.close();
